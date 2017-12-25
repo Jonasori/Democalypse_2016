@@ -22,11 +22,9 @@ vote_share=body.findAll(attrs={'class':"site-main"})
 prob=str(vote_share)
 prob0=prob.split("</")[-80:-40]
 
-print(prob0)
 
 #pres_section=str(vote_share[0])
 
-#print(pres_section)
 
 """
 h_vote_share=str(vote_share[0])
